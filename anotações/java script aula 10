@@ -1,0 +1,56 @@
+q1) o que significa a sigla DOM
+	signifia Document object model.
+q2)sabe montar a arvore dom de um site simples.
+	sim, temos window->document->head-> title e meta
+				    ->body-> h1 p-> div
+				    	        p-> strong
+q3) o que são os elementos parents ? são os elementos que vem logo em cima na árvore
+q4) o que são os elementos child ? são os elementos que vem logo abaixo de outro
+q5) quais são os 5 principais métodos de selecionar elementos do dom? por name,classe,marca,id,seletor.
+
+vamos a aula.
+-------------------------------------------------------------------------------
+
+eventos DOM 
+
+qualquer coisa que pode acontecer na nossa div.
+
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+página do mdn cheio de eventos.
+
+funções, conjunto de linhas que vão ser executadas só quando o evento ocorrer.
+agora no nosso bloco só ocorre, por exmpl quando clicarmos
+
+um bloco é determinado por
+
+function geralmente damos nome a funcao(parametros) {
+}
+
+podemos configurar o evento no html ou no script
+
+na div para acionar quando clicar temos : <div id="area" onclick="clicar()">
+
+onde onclick representa o click, que vai acionar dentro do script minha função clicar(){}
+
+temos entao
+onclick="function"
+onmouseenter="function"
+onmouseleave="function"
+
+para nossa div nao ficar muito poluida, podemos colocar ouvidos nas funcoes que detectam os eventos.
+
+variavel.addEventListener('click',clicar)
+variavel.addEventListener('mouseenter',entrar)
+variavel.addEventListener('mouseleave',saiu)
+
+o java script nao nos mostra o erro 
+temos que inspecionar e clicar no x vermelho
+
+
+

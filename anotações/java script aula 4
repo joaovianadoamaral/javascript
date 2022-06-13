@@ -1,0 +1,96 @@
+qual foi as bibliografias recomendadas?
+
+para aprende js, precisa de ingles?
+
+que dicas demos para quem quer estudar?
+
+quais programas instalamos ?
+
+r1: javascript guia do programador, +outro livro + sites técnicos da mozila e da acma 262
+
+r2: não é necessário, mas ajuda ja que temos várias aulas em português, por exemplo este curso que estou fazendo .
+
+r3: praticar e continuar tentando. não só assistir os videos.
+
+r4: navegador qualquer, no meu caso usarei o firefox. node.js que esta no meu terminal linux imbutido, basta digitar node. e o visual studio code(um  editor de texto para programas muito bom)
+
+vamos a aula 
+---------------------------------
+criando meu primeiro script
+
+na aula coloquei o video no celular e dividi a tela em duas(vs code, site do google)
+
+no vs code usar crt k,m para selecionar a linguagem.
+
+usaremos .html para o primeiro código, não sei se muda depois.
+
+salvaremos os programas em pastas por aulas.
+
+os arquivos .html serão abertos pelo navegador.
+
+primeira coisa digitar html : 5, ja nos da um código ao dar enter.
+
+<!DOCTYPE html>(documento html)
+
+<html lang="en">(linguagem do html em inglês)
+
+<html lang="pt-br"> ( mudei para portugues brasil)
+
+duas áreas básicas :
+<head>   cabeça, configurações
+<body>   corpo, o que aparece na parte branca do site
+
+tudo que estiver entre os sinais <> sao nossa tags
+
+<title> nome do arquivo lá em cima </title>
+
+salvar: crtl s
+sempre que alterarmo algo, aparece uma bolinha , então salve.
+
+para colocar titulo usamos <h1> frase do titulo </h1>
+o vs code ja completa colocando </
+
+para o paragrafo usamos <p>
+
+parte de estilo configurada geralmente na <head>
+onde usamos a tag <style>
+
+exemplo de 
+<style>
+body{
+ background-color: blue;
+    }
+        </style>
+        
+parando em cima da palavra blue, temos muitas opcoes de cores, alem disso todas as marcações termina com ;
+
+para decidir a cor da letra usamos:
+color : white ; dentro da tag de stilo
+
+a parte do javascript vai ficar depois do código base , na parte body usando a tag script
+programas em javascript sempre em minusculo.
+
+c1: window.alert(''); //mostra um alerta na tela
+podemos omitir window
+
+------------------------------------------------------------------
+esses foram os primeiros passos. resumo
+head
+body
+style
+title
+h1
+background-color : white;
+color: black;
+
+//esses vao dentro do script
+window.alert('');
+window.confirm('');//tem a opcao de confirmaçao
+window.prompt('');//pede para você digitar algo
+
+
+
+
+
+
+

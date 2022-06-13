@@ -1,0 +1,67 @@
+java script curso aula 1
+
+cliente x server 
+nosso computador ou celular sao clientes que pegam dados de um servidor, por exemplo do youtube
+
+quando entramos no navegador digitamos um endereço que na estrutura da internet que nos leva onde queremos chegar a um determinado servidor
+
+esse servidor possui diretorios/pastas  que possuem arquivos, que podem ser texto, foto , etc.
+esses documentos geralmente sao em html
+
+quando solicitado o servidor nos envia uma cópia do arquivo
+
+javascript foi criado para clientes
+funciona no servidor tambem, mas por enquanto estudaremos só para servidor
+
+-sao coisas que estao rodando no meu dispositivo(cliente)
+
+-primeira personagem é responsavel pelo conteudo (html)
+-segundo personagem organiza o conteudo, tranformando as coisas mais bonitas(css)
+-terceiro personagem é responsável redirecionando onde temos interaçoes (javascript)
+
+caso se aprofundar javascript, é necessário fazer html e css também
+
+html e css nao é uma linguagem de programação, pois sao tecnologias 
+mas javascript é uma linguagem de programação
+
+varias impresas usam javascript
+
+quando pesquisamos algo no google ele nos ajuda a completar as interações 
+
+clicar em qualquer parte branca do site google e clicar em inspecionar
+nos leva ao codiogo html
+
+para desbilitar o java, vamos nos tres pontinhos, settings e disable javascript
+
+o youtube é muito dependente por exemplo do javascript
+nao funciona nada
+
+segurar shift da algo como recarregar o site
+
+alert('frase')
+serve para printar algo na tela
+algo como o printf("")
+
+como mudar a cor do fundo para preto 
+usamos : 
+document.body.style.background='black'
+documento corpo estilo fundo recebe a cor preta
+
+no topo esquerdo do console seleciona a setinha para ver o nome da logo
+depois digitamos
+document.querySelector('nome do logo').style.filter= 'grayscale(100%)'
+basicamente tranforma a logo em preto e branco atraves de um filtro
+
+para colocar a logo escondida usamos: 
+document.querySelector('nome do logo').style.visibylity= 'hidden'
+
+basicamente o que eu fiz foi basicamente alterar só para minha maquina, que ja chegou
+tanto é que se atualizarmos o servidor ele nos manda uma cópia normal, do jeito que foi feita
+
+mudando uma manchete no g1
+document.querySelector('nome do logo').innerText='todos os joao vitors viana sao os mais gostosos'
+
+só reforçando o que fizemos é temporário e so mudamos no nosso computador
+
+
+

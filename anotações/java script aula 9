@@ -1,0 +1,100 @@
+cheguei ao módulo c, nao sei quais sao os outros dois porque não escrevi, mas tudo bem 
+
+q1)qual a diferença entre =, == e === no js?
+	 o = é usado como receb, o == compara o valor, já o === além do valor compara o tipo
+	 ou seja se são identicos
+q2) temos os operadores && e ||, qual resolvo primeiro?
+	 resolvemos o and primeiro para depois resolver o ||
+q3) sabe usar o operador ternario para colocar um entre dois valores em uma váriavel?
+	var x= 5==5?9:5;
+	x vai receber o valor 5 ja que 5==5.
+
+vamos a aula.
+----------------------------------------------------
+introdução ao DOM.
+
+no vs code instalamos, watch in firefox, o professor usou o watch in chrome.
+
+depois dei um boot no vs.
+
+instalei um link da extensão.
+firefox -start-debugger-server
+ext install firefox-devtools.vscode-firefox-debug
+nao deu certo
+
+no fim de tudo eu instalei a extensão live server, que eu abro o o programa com ele
+basta clicar com o botao direito no programa que aparece a opcao, e toda vez que eu salvar aparece na tela automaticamente.
+
+ainda no vs code instalei node exec
+
+DOM é um acrocinico para document object model: DOM  nao funciona no node.js, ele está presente quando estou rodando meu js dentro do navegador
+
+tenho que saber fazer árvore DOM .
+essa árvore DOM começa da raiz com varias ramificações, e a primeira dela é o objeto window.
+ou seja tudo dentro do java está dentro do window.
+
+exemplo de objetos dentro do window: location(diz qual url do meu site), document(documento atual) e history(vai guardando de onde vc veio)
+
+dentro de document temos : html-> head e body. são chield de html e html é parent de head e body.
+
+dentro de head : meta e title.
+
+body : h1 p p div
+
+dentro do segundo parágrafo temos uma strong
+
+alguns comandos:
+window.navigator.appName
+window.document.charset
+window.document.URL
+
+dito então podemos navegar por qualquer elemento da árvore dom
+
+podemos selecionar esses elementos por : 
+	marca
+	id
+	nome 
+	classe
+	seletor//mais recente 
+	
+por marca temos : dentro de document-> getElementsByTagName();
+	podemos selecionar mais de um objeto
+
+var p1= window.document.getElementsByTagName('p')[0];
+        window.document.write(p1.innerText)
+        
+aqui temos como armazenar o primeiro paragrafo em p1,repare no  [0], ele mostra que estamos na primeira posição, como em um vetor,ou seja o primeiro paragrafo p
+
+já o p1.innerText printa o primeiro paragrafo    
+em alguns casos não vem com a formatação certinho, por isso temos que usar o innerHTML
+    
+
+p1.style.color='blue'// esse comando pega a frase armazenada em p1 e troca a cor dela para azul
+
+
+	por id: getElementsById();
+		var d= window.document.getElementById('msg');
+	por nome : getElementsByName();
+	por classe: getElementsByClassjName();
+        
+por seletor (recomendavel)
+var d = window.document.queryselector('div#msg')
+toda div representada por # id
+e toda class é .
+
+<div id/class= 'msg'>           </div>
+
+
+ var d=window.document.getElementById("msg")
+        d.style.background ='green';
+        d.style.color='black'
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

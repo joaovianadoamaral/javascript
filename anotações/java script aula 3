@@ -1,0 +1,61 @@
+sabe que empres criou javascript ?
+
+java e javascript possuem alguma relação?
+
+o que ecmascript tem a ver com o javascript ?
+
+r1: foi a netscape 
+
+r2: apenas no nove, ja que java estava ficando conhecida como a linguagem do futuro, em uma jogada de marketing , usou-se o nome de javascript.
+eles também possuem algumas similaridades por se basearem na linguagem em c(rsrs)
+
+r3: ecmascript foi a forma da netscape padronizar a linguagem para nao virar bagunça
+
+alguns softwares, sao feitos de javascript, como o discord(curiosidade)
+
+dada as respostas vamos a aula 3
+
+----------------------------------
+*dando os primeiros passos*
+
+como as pessoas aprendem - 
+é muito esquisito ver as pessoas tocarem violão e voce achar que você aprendeu.
+então é preciso de prática, errar, tentar e fazer de novo.
+
+assistir o video e tentar fazer + referencias de livros.
+
+anotações é importante.
+bom, no meu caso vou fazer no bloco de notas.
+já que necessáriamente preciso de um computador para estudar programação 
+
+comece a pensar em projetos própios, em dias a dias, e tente a usar a programação.
+
+bibliografia: 
+
+javascript o guia definitivo. 150 reais. david flagaran
+javascript guia do programador. nao esta atualiazado a algumas ecmas.
+
+mozila e ecma //no navegador: developer.mozilla.org 
+encontramos até referencias de html e css.
+da ecma temos a referencia 262(5 e 6 edicao) 
+
+duvidas comuns: velho de mais, novo de mais. nao existe idade
+mulheres tambem programam!!!!!(são mulheres as melhores programadores)
+progamar rompe barreiras.
+apenas ter vontade de programar.
+conseguimos ótimos materias em português.
+karate kid. pintar cerca e tira casaco e bota casaco. tudo tem um fundamento para se aplicar.
+
+programadore iniciantes,são explorados pelas empresas. mas seja bom e o salario é consequencia.
+
+não existe linguangem melhor. existe a linguagem que se aplica a sua necessidade.
+
+ecmascript puro é a melhor coisa para começar, depois use as bibliotecas.
+
+software necessarios : google chrome, visual studio code (editor de texto) e nodejs.
+basicamente um navegador , editor de código e o nodejs.
+
+node.js esta no terminal basta digitar node
+para sair digite .exit
+ 
+

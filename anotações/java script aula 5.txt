@@ -1,0 +1,107 @@
+q1) sabe organizar as pastas no vscode ?
+	sim eu sei
+q2) o node.js está instalado no pc ?
+	sim ele está dentro do terminal
+q4) sabe diferenciar html5, css3, e js dentro de um código?
+	sim, html5 é o corpo basicamente, o <body> e o <head>, o css3 é o <style> e o js é o <script>
+q5) sabe disparar alertas, confirmações e perguntas ?
+	sim, usamos respectivamente window.alert(''); , window.confirm(''); e window.prompt(''); 
+podemos até omitir window
+
+vamos para a aula então.
+-------------------------------------------------------
+várivaveis e tipos primitivos
+
+usar comentários sempre facilita as coisas
+usaremos comentários igual ao c, // e /**/, isso só funciona na parte de script
+usaremos o // depois para explicar a linha anterior
+
+
+bom sabemos que na aula anterior pedimos o usuario para digitar seu nome, mas nao armazenamos nada e o nome foi perdido.
+
+variaveis:
+imagine um terreno, que se guarda carros.
+delimita-se marcas, vagas no estacionamento, de forma fisicamente.
+para se organizar melhor as vagas tem indentificações .
+as vagas variam entre carros, caminhões e motos.
+ou seja as vagas tem tamanhos diferentes.
+
+variáveis tem nome, tamanho e não podem armazenar duas informações ao mesmo tempo.
+sempre que lermos '=' vamos ler como recebe.
+
+caso queiramos que a vaga esteje limpa, sem nenhum carro, ou seja vazia. usaremos NULL
+ex: a1=NULL;//vaga a1 esta vazia
+
+o terreno == memória do computador.
+
+declarar uma váriavel usamos 'var', ou dependendo, nos js moderno 'let'.
+
+var n1= 5;
+var n2= 10; 
+
+temos as variaveis que guardam strings tambem
+
+var s1= "estudo completo"
+var s2= 'estudo completo'
+var s3= ´estudo completo´
+//sim é isso mesmo no js podemos usar três tipos de aspas e elas possuem diferença,nao sei qual agora
+
+indentificadores(nome de variaveis)
+
+podem começar com uma : letra, $ ou _
+nao podem começar com : números
+é possivel usar letras ou números 
+é possivel usar acentos e símbolos
+não podem conter espaço, usaremos_
+não podemos usar palavras ja reservadas
+maiuculas e minusculas fazem diferença, são nomes diferentes
+usa nomes coerentes,ajuda a lembrar.
+
+para abrir o node.js usando o terminal do linux basta digitar node
+
+com o vscode abririmos o terminal,podemos usar o atalho : não achei atalho
+e escrever node por la msm
+
+cuidado para nao abrir muitos terminais, causa lentidão.
+
+para mandar mostrar a váriavel basta digitar o nome dela
+
+para somarmos usamos
+n1+n2
+
+para limpar o terminal usamos crtl l
+
+nao se torne programador alfabeto ou programador contador, onde possuem variaveis , sem nexo.
+use nome na var nome.
+
+variaveis são capazes de armazenar dados portanto, diferentes tipos de dados.
+inteiros, float. ( o js nao diferencia os dois, são ambos do tipo number)
+true, false
+string(conjunto de caracteres) um exemplo de string é seu cpf, seu nome, etc.
+
+
+tipos de dados:
+	number 
+		infity
+		NaN
+	string 
+	boolean
+	null
+	undefined
+	object
+		array
+	function
+
+diferentes de outras linguagem caso definamos var n= e dar um numero, ela não se torna daquele tipo especificamente, somente enquanto ela guarda um número ela é um número. por isso é possivel
+armazenar uma string para ela depois de passar um número.
+
+comando typeof: mostra o tipo da váriavel, ou do valor literal
+
+mesmo um numero dentro de um par de aspas se torna uma string 
+
+curiosidade chata: typeof NULL, nao mostra tipo NULL, e sim object
+
+
+
+
+

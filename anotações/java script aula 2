@@ -1,0 +1,84 @@
+1- qual a diferença entre um cliente e um servidor para a internet?
+2- para que serve html, css e javascript?
+3- cite 4 sites que fazem uso do javascript?
+
+r1: os clientes sao nosssos computadores, celulares, etc que pegam dados através de um navegador 
+de um servidor, que nos fornece uma cópia de um arquivo
+
+r2: html está para o arquivo em si, o css organiza o arquivo e o java faz as interaçoes desse arquivo
+
+r3: youtube, google , g1 e classroom.
+
+dadas as perguntas vamos para a aula dois
+------------------------------------------
+
+evolução do javascript-
+
+1970
+cmc com a historia da própia internet
+guerra fria, guerra tecnológica e psicológica
+darpa(pesquisar tecnologia da guerra)
+criar uma rede que nao perdia dados caso fosse bombardeado o centro militar
+rede chamada arpanet.
+arpanet ja nao suportava mais tanta informaçao e foi feita uma reformulação assim como no nome
+passando a se chamar de internet
+
+1993
+em genebra tbl(nome)
+criou a tecnologia html, protocolo http
+fundou a www
+mosaic(navegador)
+
+1994
+criou um navegador natescape mozila
+
+1995
+desenvolvedor tinha o projeto que tinha papel de trazer mais funcionalidades ao simples html da época
+linguagem moca e linguagem java(linguagem do futuro)
+a linguagem moca entao pegou o nome java e colocou script, em jogada de marketing
+baseados em linguagem em c.
+microsoft decide criar sua própia linguagem.
+microsoft lançou internet explore
+jscipt da microsoft meio que uma copia do javascript
+
+
+1997
+ecma padroniza o código javascript padronizado para
+ecma funciona tipo a iso nos estados unidos
+
+2002
+encerramento da treta entre netscape e microsoft
+netscape faliu
+surgiu uma fundação mozila(firefox)
+
+2008
+google entra na jogada e lança ao google chrome
+motor muito forte 
+
+2009
+v8
+codigo aberto
+
+2010
+nodjs
+roda javascript  fora do navegador
+
+ecma scipt
+1.0 - 1997
+2.0 - 1998
+3.0 - 1999
+4.0 ficou com muitas promessas e nunca saiu
+5.0 -es5 - 2009 mais popular de todos, varios metodos para arrays
+es6- 2015 o curso se baseia muito nessa ectma escript
+depois surge uma es por ano até 2018
+
+surgem muitas ferramentas com cada atualização
+
+tecnologias
+jquery - bilbioteca da mozila
+angular- biblioteca google
+vue- ex programador do google que cansou de usar angular, biblioteca muito melhor
+electron- 
+
+javascript é basicamente a base dessas tecnologias
+

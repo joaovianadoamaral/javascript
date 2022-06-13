@@ -1,0 +1,50 @@
+q1) para q serve o simbolode % no js?
+	serve para resto de divisão inteira
+q2) 6+ 4/2 ? 
+	é igual a 8, caso queiramos resultado igual a 5 , usaremso os parenteses (6+4)/2
+q3)caso n=10, e executarmos n+=5, qual sera o novo valor de n?
+	estamos somando 5 ao n, logo ele apresenta valor =15.
+q4)para que serve os operadores ++ ou --?
+	server para incrementar ou subtrair 1 de uma váriavel.
+	
+vamos a aula.
+------------------------------
+operadores relacionais, lógicos e ternarios
+
+relacionais : >,<, >=,<=, ==, !=,
+
+5>2 -> TRUE //maior
+7<4 -> FALSE //menor
+8>=8 -> TRUE //maior ou igual
+9<= 7 -> FALSE // menor ou igual
+5 == 5 -> TRUE //5 é igual a 5
+4 != 4 -> FALSE // diferente
+
+5==5 -> true 
+5=='5' ->true //pois testa a grandeza
+5==='5' ->false // aqui testa se eles realmente são identicos, até no tipo
+
+mesma lógica para
+x!=y//diferente unicamente
+x!==y//alé de diferente testa o tipo
+
+
+sinais lógicas e eles tem ordem de precedencia
+!negação// qualquer coisa menos aquilo
+&&conjução //duas coisas verdadeiras para funcionar, funciona como uma porta AND
+||disjunção //funciona como uma porta OR,
+
+faremos os operadores na ordem( aritiméticos, relacionais e depois lógicos)
+
+ternário
+teste ? true : false
+ex: média >= 7 ? "aprovado" : "reprovado"
+
+funciona como um if() caso verdeiro faz o que esta em frente ao ?, caso nao em frente ao :
+
+exemplo 
+var x=0;
+
+var res = x%2 ==0? 5 : 9
+//essa expressao me diz que se o numero x for par recebe 5, caso não , recebe 9
+

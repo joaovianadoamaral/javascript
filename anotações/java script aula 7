@@ -1,0 +1,60 @@
+q1) como é possivel guardar o valor digitado em um prompt () dentro de uma variável?
+	usaremos o operador '=' ou seja , var n= window.prompt('digite seu nome');
+
+q2) como fazer com que um número digitado em um prompt() possa ser usasdo em cálculos?
+	simples,basta usar as váriaveis no qual guardamos 
+	exemplo:
+	
+	var n1=Number(window.prompt('digte um numero'));//bom fazer a conversão explicita que estamos recebendo um número
+	
+	var s= 2+n1;//soma 2 ao numero digitado.
+
+q3)como transformar um texto todo para letras maiúsculas ?
+	usaremos o comando n.toUpperCase();
+	sendo n a string.
+q4)como mostrar o valor no formato monetário?
+	n1.toLocaleString('pt-BR',{style :'currency', currency:'BRL'})
+q5) subistituir virgula por ponto : 
+	n1.toFixed(3).replace('.' , ',')
+	usaremos o replace.
+	o toFixed(3) é para definir a quantidade de casas depois da virgula.
+
+----------------------------------------------------------------
+operadores do js
+5+2 -> 7    //soma
+5-2 -> 3   //subtração
+5*2 -> 10  //multiplicação 
+5/2 -> 2.5 //divisão
+5%2 -> 1   //resto da divisão inteira por dois
+5**2-> 25  //surgiu nas ultimas versões do ecmascript,potência
+
+temos que nem na matemática a ordem (),potencia,(multiplicacao,divisao e resto de divisão), para depois soma , subtracao.
+para via das duvidas usaremos o parentese.
+
+var a= 5+3;//8
+var b= a%5;//3
+var c =5*b**2;//45
+var d= 10 - a/2;//6
+var e = 6*2/d; 2
+var f= b % e + 4 / e; //3
+
+caso o operador resto de divisão seje usado n1%n2 e n2> n1, temos que o resultado = n1.
+
+auto atribuição 
+
+var n= 3;
+n=n-2;
+
+temos para o caso da mesma váriavel receber ela mesmo + alguma atribiuição.
+n+=
+n-=
+n/=
+n%=
+n**=
+n*=
+
+operadores de incremento
+x=x+1;//x+=1;//x++; podemos fazer tambem uma pré incremento --x, ++x.
+x=x-1;//x-=1//x--; 
+
+

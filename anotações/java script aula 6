@@ -1,0 +1,94 @@
+q1) o que é uma váriavel?
+	 é uma identificação de um espaço que guarda dados na memória, ela tem tipo e tamanho.
+q2) como declarar uma váriavel númerica inteira ou real usando js?
+	usamos uma declaração comum: var n= 5;
+q3)quais sao os tipos primitivos de js?
+	são o number, boolean e string.
+q4) o que acontece se colocarmos null dentro de uma variavel?
+	estamos deixando essa váriavel livre para armazenar outra coisa.
+
+vamos a aula.
+-----------------------------------------------
+tratamento de dados
+
+quando usamos window.prompt('');
+o dado nao é armazenado, mesmo quando digitado no site.
+
+então para guardar o nome criaremos uma váriavel.
+
+var nome = window.prompt('');
+
+comentario em script // ou /**/
+comentario em css /**/
+comentário em html <! -- comentario -->
+
+var nome = window.prompt('digite seu nome');
+window.alert('é um grande praze te conhecer '+ nome);
+
+as duas linhas anteriores pede e mostra uma msg com o nome do usuario
+repare no +, serve para concatenação, como támbem serve para adição.
+
+para adição temos a notação= (number + number) adição 
+para string temos a notação= (string + string) concatenação
+
+caso usemos dois numero para mostrar com uma mensagem , e usarmos o + ele tranforma os números em uma string.
+por isso temos que declarar para o programa que oque a variavel carrega é um numero 
+
+conversão de string para numero
+
+Number.parseInt(n)//numero inteiro
+Number.parseFloat(n)//numero real
+
+N de number maiusculo
+I de int maiuculo
+F de float maiusculo
+
+atualmente nos usamos Number(n)
+e ele se vira para saber se é numero inteiro, ou, real.
+
+usamos então
+var n1= Number.parseInt(window.prompt('digite um numero '));
+var n2= Number.parseInt(window.prompt('digite outro numero'));
+var s= n1+n2;
+window.alert('a soma é ' + s + '!')
+
+numero para a string 
+string()
+
+forma mais legal de trabalhar com strings, template string
+usaresmos ${s} para indentificar o que inserir na frase, no caso no meu nao funcionou
+descobri o problema, nao funcionou porque nao usei crase, shift ´ == `escrever aqui`
+
+exemplo de templete string
+window.alert(`a soma entre ${n1} e ${n2} é igual a ${soma}`)
+usaremos para interpolação
+
+comando novo: 
+s.length// mostra o tamanho da string s
+s.toUpperCase()//U e C em maiusculo, coloca a string em mauscula
+s.toLowerCase()//L e C em maiusculo, coloca a string em minuscula
+//nao esquece dos parenteses nao funciona sem eles.
+
+document.write('escreve mensange na tela')
+
+body{  font: normal 20pt arial;//dentro de style }
+
+document.writeln('usa quebra de linha quando se vai escrever no documento')//no meu sistema nao funcionou
+
+usaremos entao o </br> break row , algo similar ao \n em c que pula para a linha de baixo
+
+<strong>faz ficar em negrito o que vier aqui </strong>
+
+escrever um número com duas casas decimais usamos 
+
+n1.toFixed(2)//f maiusculo e dentro do parentese a quantidade de casas
+
+trocar o ponto por virgula
+ n1.toFixed(3).replace('.' , ',')
+ 
+para mostrar o numero em real usamos o comando avançado :
+n1.toLocaleString('pt-BR',{style :'currency', currency:'BRL'})
+em usd, basta trocar o BRL por USD,e em euro por EUR
+
+
+
