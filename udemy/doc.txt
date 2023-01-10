@@ -1,0 +1,6 @@
+<!--> area de instalações<-->
+
+intall vs code
+install node.js
+install extensão do code runner
+
