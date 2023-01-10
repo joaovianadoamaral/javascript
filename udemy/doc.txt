@@ -4,3 +4,5 @@ intall vs code
 install node.js
 install extensão do code runner
 
+é possivel a utilização do código sem usar o coderunner:
+use o comando no terminal ->> node nome_arquivo.js
