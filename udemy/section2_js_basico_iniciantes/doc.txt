@@ -192,3 +192,24 @@ ECMAscript == javascript
     empresa que padroniza o javascript
 let surgiu no ECMAscript 2015 (ES6)
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 8
+Tipos de dados primitivos
+
+// strings(textos)
+
+//number(int + float) 
+
+//undefined e null
+    //não aponta para lugar nenhum na memória
+    
+    let nomeAluno; // undefined 
+
+    null 
+        // nulo, considerado um objeto mas não se encaixa
+        // null geralmente usado explicitamente
+        // undefined é automatico da linguagem
+        // undefined nunca é configurado por nós usuários
+
+// bool - true / false, toda lógica retorna um bool
+    usado para alterar o fluxo do código
