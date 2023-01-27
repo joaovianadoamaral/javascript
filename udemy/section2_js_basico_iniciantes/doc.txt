@@ -179,3 +179,16 @@ template string = string com variaveis
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Aula 7
 primeira diferença entre var e let
+
+o let não permite que voce redeclare a variavel
+
+o var permite e isso é um comportamento não desejavél
+
+é possivel criar variaveis sem let e sem const
+    são chamadas de variaveis globais
+    não faça isso, pode atrapalhar o funcionamento do código
+
+ECMAscript == javascript
+    empresa que padroniza o javascript
+let surgiu no ECMAscript 2015 (ES6)
+
