@@ -69,3 +69,34 @@ Um bloco de código
 Parecido com o C
 Muito usado em blibiotecas
 */
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 3
+o vs code tem um terminal integrado
+podemos usar um terminal do pc também
+cd caminho 
+    para ir para determinada pasta
+    no terminal
+    no windows use \ e nao /
+para executar um código use 
+    node .\arquivos
+
+é possível linkar html5 com js
+    use a tag <script> <\script>
+        não é uma boa pratica usar a tag script
+        é possivel colocar a tag script dentro de head e do body
+        quando colocado dentro do head o navegador pode ter delay
+        use a tag script no final da tag body
+
+para inspecionar o código fonte de uma página use crtl + u
+
+é interessante separar o html do css e do js
+    para separar o js do html5 use:
+        <script src='caminho do arquivo'> </script>
+    crie uma pasta para o js
+mesmo o node.js e o chrome terem a mesma engine eles não são iguais
+
+função alert('string')
+    janela com uma mensagem
+    segura a página até que o usuário clique em ok
+    O node não consegue executar o alert();
