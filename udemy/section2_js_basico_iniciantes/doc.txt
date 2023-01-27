@@ -167,3 +167,15 @@ typeof(valor) ou typeof valor
  sinal de + usado para concatenar e realizar uma soma
  se o primeiro valor for uma string não importa o segundo valor.
  o js vai concatenar os dois valores, mesmo se o segundo for um number
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 6
+
+template string = string com variaveis
+ use a crase `texto ${variavel} texto`
+    forma mais legivel de se ler
+    forma mais moderna
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 7
+primeira diferença entre var e let
