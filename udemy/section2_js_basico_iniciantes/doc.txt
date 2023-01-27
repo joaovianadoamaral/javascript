@@ -48,4 +48,24 @@ essa função só exibida no console.
     no navegador é possivel acessar o console seguindo os passos:
         botão direito > inspecionar > console
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 2
+
 // isso é um comentário em js
+    trechos de código que são ignorados pelo motor do js
+    os comentarios não são executados
+
+Ao executar um código no vscode estamos usando o node.js
+Ao executar um código no navegador estamos usando o motor do google chrome
+No caso as duas engines são iguais que é a V8
+
+por alguma razão é usado comentarios no código
+Um código bom não precisa de comentarios. escreva códigos limpos
+
+// comentário de uma linha inteira e trecho de linha(após um código)
+
+/*
+Um bloco de código
+Parecido com o C
+Muito usado em blibiotecas
+*/
