@@ -149,4 +149,21 @@ Variaveis
     as variaveis são case-sensitive
         nomecliente != nomeCliente
         pelo simples fato de uma letra maiuscula cria-se uma nova variavel
-    
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 5
+
+constantes
+    possui a mesma regra das variaveis
+    não podemos modificar o valor de uma constante
+    utilize const
+        exp: const numeroPi = 3.141592
+        é um valor que não vai mudar durante o código
+    a constante não pode ser declarada sem ser inicializada
+    // dentro de aspas == 'string'
+fora de aspas == number
+constantes ja possuem um tipo definido
+typeof(valor) ou typeof valor
+ sinal de + usado para concatenar e realizar uma soma
+ se o primeiro valor for uma string não importa o segundo valor.
+ o js vai concatenar os dois valores, mesmo se o segundo for um number
