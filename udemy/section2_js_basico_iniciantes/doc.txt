@@ -314,4 +314,11 @@ podemos converter para um número usando:
     parseFloat()
     parseInt()
     Number() // n maiusculo
-    
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 10
+
+sempre que você mudar um valor de uma variavel, salve ela antes usando uma outra variavel
+ou podemos fazer de uma maneira mais moderna:
+    [varA, varB, varC] = [varB, varC, varA]
