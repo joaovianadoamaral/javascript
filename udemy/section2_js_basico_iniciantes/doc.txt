@@ -284,3 +284,34 @@ parseInt('string') -> transforma uma string para int
 parseFloat('string') ->transforma uma string para float
 number('string') -> ele decide se transforma pra inteiro ou pra float
 
+
+no navegador temos o objeto pai de todos os outros elementos
+    objeto window
+        digite window no console do navegador para ver os métodos dele 
+        logo alert(); é um atalho para window.alert();
+
+além do alert(); temos duas funções parecidas
+    window.corfim('text');
+        apresenta duas opções: e retorna um boolean
+            cancelar(false)     ok (true)
+    window.prompt('text');
+        apresenta duas opções: e retorna
+            cancelar(null)     ok (string digitada)
+
+para limpar o prompt use crtl + l
+
+a diferença entre uma função e um método é que o método é uma função dentro do objeto.
+
+uma função pode ou não retornar um valor.
+    se a função não retornar nada temos (undefined)
+    se não vamos ter um tipo de dado primitivo
+        podemos capturar a informação usando uma variavel
+        ex: const confirma = window.confirm('Realmente deseja apagar');
+
+
+lembre-se o prompt() retorna uma string mesmo que você digite um número
+podemos converter para um número usando:
+    parseFloat()
+    parseInt()
+    Number() // n maiusculo
+    
