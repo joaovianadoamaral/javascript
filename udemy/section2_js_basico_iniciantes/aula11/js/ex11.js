@@ -1,0 +1,19 @@
+const nomeUsuario = window.prompt('Digite o seu nome: ');
+let tamNomeUsuario = nomeUsuario.length;
+let segundaLetraNome = nomeUsuario[1];
+let primeiroO = nomeUsuario.toLowerCase().indexOf('o');
+let ultimoO = nomeUsuario.toLowerCase().lastIndexOf('o');
+let ultimas3Letras = nomeUsuario.slice(-3);
+let palavrasNome = nomeUsuario.split(' ');
+let nomeMaiusculo = nomeUsuario.toUpperCase();
+let nomeMinusculo = nomeUsuario.toLowerCase();
+
+window.document.body.innerHTML = `Seu nome é: <strong>${nomeUsuario}</strong> <br>`;
+window.document.body.innerHTML += `Seu nome tem <strong>${tamNomeUsuario}</strong> letras <br>`;
+window.document.body.innerHTML += `A segunda letra do seu nome é: <strong>${segundaLetraNome}</strong> <br>`;
+window.document.body.innerHTML += `Qual o primeiro índice da letra LETRA O no seu nome? <strong>${primeiroO}</strong> <br>`;
+document.body.innerHTML += `Qual o último índice da letra LETRA O no seu nome? <strong>${ultimoO}</strong> <br>`;
+document.body.innerHTML += `As últimas 3 letras do seu nome são: <strong>${ultimas3Letras}</strong> <br>`;
+document.body.innerHTML += `As palavras do seu nome são: <strong>${palavrasNome}</strong> <br>`;
+document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nomeMaiusculo}</strong> <br>`;
+document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nomeMinusculo}</strong> <br>`;

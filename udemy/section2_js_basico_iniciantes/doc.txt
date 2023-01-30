@@ -322,3 +322,99 @@ Aula 10
 sempre que você mudar um valor de uma variavel, salve ela antes usando uma outra variavel
 ou podemos fazer de uma maneira mais moderna:
     [varA, varB, varC] = [varB, varC, varA]
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 11
+
+mais sobre strings
+ja sabemos que uma string é um texto;
+
+além do jogo de aspas para mostrar uma aspas podemos usar:
+    \" -> considerado como texto
+        feio, evite usar 
+    \ é um caractere de escape
+    \\ mostra uma \ 
+
+um texto é um iteravel
+
+cada caractere possui um indice
+o primeiro elemento possui indice 0
+
+use string[indice]
+    caso for um indice maior ou negativo
+        retorna undefined
+
+
+               012345
+let umTexto = 'string';
+console.log(umTexto[3])  // vai mostrar  o 'i'
+
+uma string é um objeto
+    logo podemos usar o método .charAt(indice)
+    
+    ele também retorna a letra do indice 
+    
+    método .concat(string1, string2, ..., stringN)
+
+    .indexOf('texto')
+        quando eu quero saber qual o indice que o texto que eu digitei começar
+    .indexOf('texto', 5)
+        procura o texto digitado a partir do indice 5
+    
+    se .indexOf(string) não encontrar nada ele retorna -1
+    se ele encontrar ele retorna o indice que começa
+
+    .lastIndexOf(string)
+        faz o mesmo que o de cima mas de tras pra frente(logo procuramos o ultimo)
+    
+
+expressões regulares (muito grande)
+    match, search e replace
+
+    .replace('um', 'Outra')
+        substitui onde tiver um por outra
+
+
+o método string.length retorna o tamanho da string
+
+o método string.slice(n, x)
+    fatia a string começando em n e indo até x-1
+    podemos usar números negativos.
+        ele faz basicamente uma subtração do tamanho da string
+        é como se o ultimo item fosse o -1
+
+o método string.substring(tamanho string - onde começa, tamanho string onde termina)
+    faz a mesma coisa que o método acima mas da mais trabalho
+
+
+o método .split(' ')
+    divide uma string em um array toda vez que ele encontrar espaços
+
+.split(' ', 2)
+    separa sómente as duas primeiras palavras
+
+.toUpperCase();
+    transforma tudo para maiusculo
+
+.toLowerCase();
+    transforma tudo para minusculo
+
+caso queira ler a documentação use:
+    https://www.w3schools.com/js/default.asp
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript     mozila
+    ou o da ecma que é em ingles e formal
+
+
+
+
+document está dentro de window
+    .write() escreve no documento html
+        nao serve pra muita coisa
+
+    .body.innerHTML 
+        retorna o que está escrito no documento HTML 
+        podemos alterar usando um sinal de = 'novo texto'
+            podemos usar a concatenação += 
+        <br/> para quebrar linha -> o inner tabem ler texto html
+
+    
