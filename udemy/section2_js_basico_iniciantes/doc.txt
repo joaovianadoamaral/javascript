@@ -450,3 +450,49 @@ console.log(contaVerdadeira);
 // * podemos transformar para inteiro
 // * melhor forma: Number(num1.toFixed(2))
     // assim perde a imprecisão
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 12
+
+objeto Math 
+
+v2 = Math.floor(v1)
+    retorna o valor de v1 para v2 arredondado para baixo 
+
+v2 = Math.ceil(v1)
+    retorna o valor de v1 para v2 arredondado para cima
+
+v2 = Math.round(v1)
+    retorna o valor de v1 para v2 arredondado para o mais perto 
+
+let sequenciaDeNumeros = [1,2,3,4,5,6,7,8,9];
+let maiorNumero = Math.max(sequenciaDeNumeros);
+    pega o maior número de uma sequenciaDeNumeros
+let menorNumero = Math.min(sequenciaDeNumeros);
+    pega o menor número de uma sequenciaDeNumeros
+
+
+let numAlet = Math.random();
+    gera um número aleatório entre 0 e 1 com o 1 não incluido
+    podemos usar essa função para gerar um número aleatório entre 5 e 10 usando o seguinte código
+        
+        const menorNumPossivel = 5;
+        const maiorNumPossivel = 10;
+        let numAleatorio = Math.random() * (maiorNumPossivel - menorNumPossivel) + menorNumPossivel;
+            
+            a ideia é que se Math.random() for == 0 temos um resultado = 0 + 5 == menorNumPossivel
+                          se Math.random() for == 1 temos um resultado == (10 - 5) + 5 == maiorNumPossivel
+                          e para os outros resultados temos um número entre 5 e 10
+            se quiser arredonde
+
+Math.pow(a,b)   retorna a elevado a b
+    de preferencia ao operador **       a ** b 
+    podemos pegar uma raiz quadrada usando fração (1/2)     a ** (1/2)  ou a ** 0.5 
+
+
+em javascript temos o tipo de dado númerico 'infinity'
+    portanto uma divisão por 0 é possível, tome cuidado
+    é avaliado como true nos boolean
+
+
