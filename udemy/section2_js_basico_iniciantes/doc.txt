@@ -511,3 +511,62 @@ dentro de document temos métodos para alterar esses id's das tags
 
 em html é recomendado que tenhamos somente um id na pagina
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 14
+
+array   basico
+    o array é uma lista de coisas 
+    
+    let alunos = ['joao','maria','edu']
+        podemos colocar qualquer coisa que a gente quiser 
+        mas tentamos colocar sempre o mesmo tipo de dado
+    
+    let notas = [10, 7.5, 5.0]
+
+    os arrays são acessaveis através do elemento
+    elementos estão entre virgulas
+    o primeiro indice do array é o 0
+
+    para acessar o primeiro elemento do array fazemos array[0]
+
+    logo acessar indice: array[0]
+    receber algo no indice 0 : array[0] = 'string'
+
+    para saber o tamanho do meu array:
+        
+        array.length();
+        
+            ele começa a contagem no 1
+            então array[array.length()] = 'string'
+                esse código adiciona um item ao final do array
+    
+    existe uma função que faz isso automaticamente
+        array.push(elementoQueEuQuero:string,Number....)
+
+    é possivel adicionar itens ao começo também e empurrar os outros itens
+        cuidado, isso gasta muita memória
+        evite fazer com arrays grandes
+
+        array.unshift(elementoQueEuQuero:string,Number....)
+
+    array.unshift() e array.push() não retornam nada elas modificam o própio array.
+
+    remover o ultimo item do array
+        array.pop()
+        ele retorna o valor que está sendo removido, então é possivel salvar em uma variavel
+            const removido = array.pop();
+
+    remover o primeiro item do array
+        array.shift()
+        possui a mesma lógica do .pop()
+        o .shift() gasta mais memória que o .pop()
+
+    podemos deletar um item especifico no array
+        delete array[indice]
+
+    o javaScript tem um valor padrão para coisas que não existem            undefined
+        uma coisa que não existe é um indice de array muito grande
+
+    para saber se um objeto é um array usamos:
+        nomeObjeto instanceof array
+        sendo o objeto a nossa variavel, etc
