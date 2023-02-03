@@ -606,3 +606,54 @@ Isso NÃO pode
 
 const array = [1, 2, 3, 4, 5];
 array = 'Legal'; // Assignment to constant variable.
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 16
+
+funções
+    elas executam rotinas
+    mande um valor para ela e receba algo, ou não
+
+declaração de uma função
+
+function nomeFuncao(parametro1, parametro2, ..., parametroN){
+    return  valor //linha opcional
+}
+
+ao fazer desse jeito não precisa de ; no final
+
+ao nomear uma função use as regras das variaveis
+
+não é possível acessar coisas dentro da função(escopo)
+
+parametros são valores coringas(uma variavel recebe esse valor)
+que serão usados dentro da função
+
+funções são feitas para serem reutilizadas no código
+funções são feitas para evitar repetição 
+funções tornam o código mais legivel
+
+um programa são basicamente um monte de funções que conversam entre si
+
+após o javaScript encontrar a palavra return nada mais será executados
+na função
+
+é possivel definir valores padrões nos parametros caso o usuario não digite 
+    function nome(x = 1, y = 2){
+
+    }
+
+é possivel criar uma variavel que recebe uma função
+isso significa que é uma função anonima
+
+    const raiz = funcion (n){
+        return n ** 0.5;
+    }
+
+    é possivel fazer a mesma coisa com uma arrow function
+
+    const raiz = n => n ** 0.5;
+
+não é interessante criar funções que fazem multiplas coisas
+    
