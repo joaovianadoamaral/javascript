@@ -495,4 +495,19 @@ em javascript temos o tipo de dado númerico 'infinity'
     portanto uma divisão por 0 é possível, tome cuidado
     é avaliado como true nos boolean
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Aula 13
+
+geralmente usamos o objeto:
+    window.document.body.innerHTML para alterar o corpo do documento na pagina
+
+mas na pratica temos que alterar oq estiver dentro de tags nos arquivos html
+
+é necessário marcar os locais que queremos modificar usando tags e id's 
+
+dentro de document temos métodos para alterar esses id's das tags
+    document.getElementById(string do id)
+        esse comando retorna a tag do elemento que queremos, logo devemos salvar em uma variavel
+
+em html é recomendado que tenhamos somente um id na pagina
 
