@@ -6,9 +6,8 @@ let num1String = num1.toString();
 let num2String = num2.toString();
 //concatenação
 console.log(num1 + num2);
-console.log(num1 + num2String);
 //concatenação
-console.log(num1String + num2String);
+console.log(num1 + num2String);
 console.log(num1String + num2String);
 
 console.log(typeof num1); //número
