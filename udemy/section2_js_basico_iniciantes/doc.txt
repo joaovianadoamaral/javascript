@@ -282,7 +282,7 @@ o js tenta corrigir alguns erros para você
 
 parseInt('string') -> transforma uma string para int
 parseFloat('string') ->transforma uma string para float
-number('string') -> ele decide se transforma pra inteiro ou pra float
+Number('string') -> ele decide se transforma pra inteiro ou pra float
 
 
 no navegador temos o objeto pai de todos os outros elementos
@@ -344,7 +344,6 @@ use string[indice]
     caso for um indice maior ou negativo
         retorna undefined
 
-
                012345
 let umTexto = 'string';
 console.log(umTexto[3])  // vai mostrar  o 'i'
@@ -385,7 +384,9 @@ o método string.slice(n, x)
 
 o método string.substring(tamanho string - onde começa, tamanho string onde termina)
     faz a mesma coisa que o método acima mas da mais trabalho
-
+    não aceita número negativo
+    use o tamanho como referência e subtraia 
+        ex: se eu quero a posição -6, use: string.length -6
 
 o método .split(' ')
     divide uma string em um array toda vez que ele encontrar espaços
@@ -403,8 +404,6 @@ caso queira ler a documentação use:
     https://www.w3schools.com/js/default.asp
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript     mozila
     ou o da ecma que é em ingles e formal
-
-
 
 
 document está dentro de window
